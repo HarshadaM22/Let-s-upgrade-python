@@ -1,0 +1,12 @@
+#check whether given number is prime number or not
+def primeOrNonprime(num):
+   if (num <= 1):
+     print("Given num is prime num")
+   else:
+     print("Given num is Nonprime num")
+
+primeOrNonprime(2)
+primeOrNonprime(1)
+Output:
+Given num is Nonprime num
+Given num is prime num
